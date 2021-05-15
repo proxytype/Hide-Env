@@ -43,11 +43,11 @@ namespace Loader
             if (args.Length < 2)
             {
 
-                Console.WriteLine("Remove Events From Event Viewer By Process ID");
+                Console.WriteLine("Remove variable From Environment");
                 Console.WriteLine("<Payload Path> <Process Name>");
-                Console.WriteLine("Process ID is hardcoded in payload");
+                Console.WriteLine("variable is hardcoded in payload");
                 Console.WriteLine("Example:");
-                Console.WriteLine("C:\\payload.dll mmc");
+                Console.WriteLine("C:\\payload.dll SystemPropertiesAdvanced");
                 Console.WriteLine("By Proxytype - https://github.com/proxytype");
                 return;
 
